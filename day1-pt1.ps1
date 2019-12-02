@@ -5,6 +5,3 @@ foreach ($m in $mass) {
     $total += $calc
 }
 write-output $total
-
-
-[math].GetMethods() | Select -Property Name -Unique
